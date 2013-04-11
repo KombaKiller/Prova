@@ -1,0 +1,20 @@
+﻿@using ProvaAlexandre.Dominio
+@model ProvaAlexandre.Dominio.Usuario
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<div>
+    <h1>Olá e Bem-Vindo!</h1>
+    <p>Este é o programa de creche do alexandre </p>
+</div>
+
+
+
+@{
+                            var usuario = (Usuario)Session["Usuario"];  
+                        } 
+                     <li>   
+                    @usuario.UsuarioNome (<a href="@Url.Action("Sair", "Home")">Sair</a>)
+                    </li>

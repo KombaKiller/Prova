@@ -8,6 +8,7 @@ using ProvaAlexandre.Dominio;
 
 namespace ProvaAlexandre.UI.Web.Controllers
 {
+    [Authorize]
     public class FilhoController : Controller
     {
         public ActionResult Index()

@@ -4,48 +4,56 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Filhos</h2><br />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
 
-<p>
-    @Html.ActionLink("Cadastrar Novo Filho", "Cadastrar")
-</p>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.MaeId)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FuncionarioId)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Nome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Sexo)
-        </th>
-        <th></th>
-    </tr>
+    <h2>Filhos</h2>
+    <br />
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.MaeId)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FuncionarioId)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Sexo)
-        </td>
-        <td>
-            @Html.ActionLink("Editar", "Editar", new { id=item.FilhoId }) |
-            @Html.ActionLink("Detailhes", "Detalhes", new { id=item.FilhoId }) |
-            @Html.ActionLink("Deletar", "Excluir", new { id=item.FilhoId })
-        </td>
-    </tr>
+    <p>
+        @Html.ActionLink("Cadastrar Novo Filho", "Cadastrar")
+    </p>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FuncionarioId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaeId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FuncionarioId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sexo)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new {id = item.FilhoId}) |
+                    @Html.ActionLink("Detailhes", "Detalhes", new {id = item.FilhoId}) |
+                    @Html.ActionLink("Deletar", "Excluir", new {id = item.FilhoId})
+                </td>
+            </tr>
+        }
+
+    </table>
 }
-
-</table>

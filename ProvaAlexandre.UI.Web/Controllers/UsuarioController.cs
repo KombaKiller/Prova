@@ -8,6 +8,7 @@ using ProvaAlexandre.Dominio;
 
 namespace ProvaAlexandre.UI.Web.Controllers
 {
+    [Authorize]
     public class UsuarioController : Controller
     {
         //
@@ -15,15 +16,14 @@ namespace ProvaAlexandre.UI.Web.Controllers
 
         public ActionResult Index()
         {
-            var aplicacao = new UsuarioAplicacao();
-            var listaDeUsuarios = aplicacao.ListarTodos();
-            return View(listaDeUsuarios);
+            var usuarioAplicacao = new UsuarioAplicacao();
+            return View(usuarioAplicacao.ListarTodos());
         }
 
         public ActionResult Detalhes(int id)
         {
-            var aplicacao = new UsuarioAplicacao();
-            var usuario = aplicacao.ListarPorId(id);
+            var usuarioAplicacao = new UsuarioAplicacao();
+            var usuario = usuarioAplicacao.ListarPorId(id);
             if (usuario == null)
                 return HttpNotFound();
             return View(usuario);
@@ -31,13 +31,6 @@ namespace ProvaAlexandre.UI.Web.Controllers
 
         public ActionResult Cadastrar()
         {
-            var aplicacao = new FilhoAplicacao();
-            ViewBag.listaDeFilhoes = new SelectList(
-                aplicacao.ListarTodos(),
-                "FilhoId",
-                "Nome"
-                );
-
             return View();
         }
 
@@ -46,22 +39,19 @@ namespace ProvaAlexandre.UI.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var aplicacao = new UsuarioAplicacao();
-                aplicacao.Salvar(usuario);
+                var usuarioAplicacao = new UsuarioAplicacao();
+                usuarioAplicacao.Salvar(usuario);
                 return RedirectToAction("Index");
             }
-
             return View(usuario);
         }
 
         public ActionResult Editar(int id)
         {
-            var aplicacao = new UsuarioAplicacao();
-            var usuario = aplicacao.ListarPorId(id);
+            var usuarioAplicacao = new UsuarioAplicacao();
+            var usuario = usuarioAplicacao.ListarPorId(id);
             if (usuario == null)
                 return HttpNotFound();
-
-
 
             return View(usuario);
         }
@@ -71,19 +61,18 @@ namespace ProvaAlexandre.UI.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var aplicacao = new UsuarioAplicacao();
-                aplicacao.Salvar(usuario);
+                var usuarioAplicacao = new UsuarioAplicacao();
+                usuarioAplicacao.Salvar(usuario);
                 return RedirectToAction("Index");
             }
 
             return View(usuario);
         }
 
-
         public ActionResult Excluir(int id)
         {
-            var aplicacao = new UsuarioAplicacao();
-            var usuario = aplicacao.ListarPorId(id);
+            var usuarioAplicacao = new UsuarioAplicacao();
+            var usuario = usuarioAplicacao.ListarPorId(id);
             if (usuario == null)
                 return HttpNotFound();
 
@@ -93,8 +82,8 @@ namespace ProvaAlexandre.UI.Web.Controllers
         [HttpPost, ActionName("Excluir")]
         public ActionResult ExcluirConfirmado(int id)
         {
-            var aplicacao = new UsuarioAplicacao();
-            aplicacao.Excluir(id);
+            var usuarioAplicacao = new UsuarioAplicacao();
+            usuarioAplicacao.Excluir(id);
             return RedirectToAction("Index");
         }
 

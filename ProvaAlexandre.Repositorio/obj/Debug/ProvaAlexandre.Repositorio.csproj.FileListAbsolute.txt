@@ -3,3 +3,8 @@ D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\
 D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.csprojResolveAssemblyReference.cache
 D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.dll
 D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.pdb
+C:\repositorio\Prova\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Repositorio.dll
+C:\repositorio\Prova\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Repositorio.pdb
+C:\repositorio\Prova\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.csprojResolveAssemblyReference.cache
+C:\repositorio\Prova\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.dll
+C:\repositorio\Prova\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.pdb

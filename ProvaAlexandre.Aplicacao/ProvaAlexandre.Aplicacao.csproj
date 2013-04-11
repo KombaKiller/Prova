@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcessoAplicacao.cs" />
     <Compile Include="FilhoAplicacao.cs" />
     <Compile Include="FuncionarioAplicacao.cs" />
     <Compile Include="MaeAplicacao.cs" />
