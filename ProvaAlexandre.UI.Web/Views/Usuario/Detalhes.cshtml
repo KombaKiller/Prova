@@ -1,0 +1,29 @@
+﻿@model ProvaAlexandre.Dominio.Usuario
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Usuario</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UsuarioNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UsuarioNome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Senha)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Senha)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.UsuarioId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

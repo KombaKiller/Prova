@@ -43,6 +43,7 @@
     <Compile Include="FuncionarioAplicacao.cs" />
     <Compile Include="MaeAplicacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioAplicacao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProvaAlexandre.Dominio\ProvaAlexandre.Dominio.csproj">
