@@ -27,7 +27,7 @@ namespace ProvaAlexandre.Aplicacao
             var strQuery = " ";
             strQuery += " UPDATE FILHO SET ";
             strQuery += string.Format(" Nome = '{0}', ", filho.Nome);
-            strQuery += string.Format(" Mae_Id = '{0}' ", filho.MaeId);
+            strQuery += string.Format(" Mae_Id = '{0}', ", filho.MaeId);
             strQuery += string.Format(" Sexo = '{0}', ", filho.Sexo);
             strQuery += string.Format(" Funcionario_Id = '{0}' ", filho.FuncionarioId);
             strQuery += string.Format(" WHERE Filho_Id = {0}", filho.FilhoId);

@@ -55,7 +55,7 @@ namespace ProvaAlexandre.Aplicacao
 
         public Usuario ListarPorId(int id)
         {
-            var strQuery = " SELECT * FROM MAE WHERE Usuario_Id = " + id;
+            var strQuery = " SELECT * FROM Usuario WHERE Usuario_Id = " + id;
             var retorno = contexto.ExecutaComandoComRetorno(strQuery);
             return TransformaReaderEmListaDeObjeto(retorno).FirstOrDefault();
         }
