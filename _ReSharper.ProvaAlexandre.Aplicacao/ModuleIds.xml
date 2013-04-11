@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="E51AAE05-CA8A-41C5-B8AA-447308AA1341" ModuleId="ProvaAlexandre.Aplicacao" />
+  <Module PersistentId="9D7BE273-11E9-4818-93A0-9E76E30ACFAB" ModuleId="ProvaAlexandre.Dominio" />
+  <Module PersistentId="23CD9C36-04D9-4D12-BBD5-833D550C87FB" ModuleId="ProvaAlexandre.Repositorio" />
+  <Module PersistentId="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D" ModuleId="ProvaAlexandre.UI.Web" />
+</Modules>

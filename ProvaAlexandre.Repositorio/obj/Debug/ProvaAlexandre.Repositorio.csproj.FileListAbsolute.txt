@@ -1,0 +1,5 @@
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Repositorio.dll
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Repositorio.pdb
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.csprojResolveAssemblyReference.cache
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.dll
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.pdb

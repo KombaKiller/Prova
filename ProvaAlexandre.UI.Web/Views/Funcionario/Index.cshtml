@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ProvaAlexandre.Dominio.Funcionario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2><br />
+
+<p>
+    @Html.ActionLink("Cadastrar Novo Funcionario", "Cadastrar")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Idade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Idade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.FuncionarioId }) |
+            @Html.ActionLink("Detailhes", "Detalhes", new { id=item.FuncionarioId }) |
+            @Html.ActionLink("Deletar", "Excluir", new { id=item.FuncionarioId })
+        </td>
+    </tr>
+}
+
+</table>

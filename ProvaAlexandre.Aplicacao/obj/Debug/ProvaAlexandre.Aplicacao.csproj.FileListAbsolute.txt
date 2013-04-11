@@ -1,0 +1,9 @@
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Aplicacao.dll
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Aplicacao.pdb
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Dominio.dll
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Repositorio.dll
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Dominio.pdb
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Repositorio.pdb
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.csprojResolveAssemblyReference.cache
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.dll
+D:\DOC\Desktop\alexandre\aula\3º Periodo\Oficinas lll\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.pdb

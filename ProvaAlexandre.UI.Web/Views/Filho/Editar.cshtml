@@ -1,0 +1,57 @@
+﻿@model ProvaAlexandre.Dominio.Filho
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Filho</legend>
+
+        @Html.HiddenFor(model => model.FilhoId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MaeId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MaeId)
+            @Html.ValidationMessageFor(model => model.MaeId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FuncionarioId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FuncionarioId)
+            @Html.ValidationMessageFor(model => model.FuncionarioId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Nome)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Nome)
+            @Html.ValidationMessageFor(model => model.Nome)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Sexo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Sexo)
+            @Html.ValidationMessageFor(model => model.Sexo)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

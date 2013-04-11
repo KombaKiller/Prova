@@ -1,0 +1,141 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+
+body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background:#ddd url(imagens/background_topo.png) repeat-x ;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+/*Agrupados*/
+h2,a span ,.Menu,.Menu li,.Menu li a,p,p a{
+    display: block;
+    float: left;
+}
+
+/*Css Topo Do Site*/
+
+#Topo {
+    Display:block;
+    float: left;
+    width: 100%;
+    height: 75px;
+}
+.Logo{
+    font: bold 30px Arial, Tahoma, sans-serif; color: #FFF;
+    margin:10px 0 0 30px;
+    padding-right:639px ;
+}
+.Menu li {
+    background-color: rgb(127,127,127);
+    width: 100px;
+    height: 30px;
+    margin-left:120px;
+    margin-top:-1px ;
+}
+.Menu li a{
+    width: 93px;
+    height: 23px;
+    font: normal 15px Arial, Tahoma, sans-serif; color: #fff;
+    padding:7px 0 0 7px ;
+}
+
+#Layout {
+    display: block;
+    margin: auto;
+    width:1017px ;
+}
+p,h2{
+    margin-top:5px ;
+    width: 100%;
+}
+
+p a ,p input{
+    
+    font: normal 15px Arial, Tahoma, sans-serif;
+    color: #FFF;
+    width: 191px;
+    padding: 10px 0 0 10px;
+    height: 30px;
+    background: #000;
+}
+a:hover {
+    font: normal 15px Arial, Tahoma, sans-serif;color: #f90;
+}
+
+a {
+    font: normal 15px Arial, Tahoma, sans-serif;color: #444;
+}
+
+li a:hover {
+    font: normal 15px Arial, Tahoma, sans-serif;color: #f90;
+}
+li a {
+    font: normal 15px Arial, Tahoma, sans-serif;color: #444;
+}
+
+
+
+
+

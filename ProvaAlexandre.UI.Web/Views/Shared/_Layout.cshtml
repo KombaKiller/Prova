@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+    <body>
+         <div id="Layout">   
+            <div id="Topo">
+                <a href="~/home"><span class="Logo">Creche Prova Alexandre</span></a>
+                <ul class="Menu">
+                    <li>
+                        <a href="~/">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="~/Filho">Filho</a>
+                    </li>
+                    <li>
+                        <a href="~/Mae">Mae</a>
+                    </li>
+                    <li>
+                        <a href="~/Funcionario">Funcionarios</a>
+                    </li>
+                </ul>
+            </div>
+        
+        
+
+            @RenderBody()
+
+            @Scripts.Render("~/bundles/jquery")
+            @RenderSection("scripts", required: false)
+        </div>
+    </body>
+</html>
