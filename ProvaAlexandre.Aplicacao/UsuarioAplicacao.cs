@@ -16,7 +16,7 @@ namespace ProvaAlexandre.Aplicacao
         private void Inserir(Usuario usuario)
         {
             var strQuery = " ";
-            strQuery += " INSERT INTO usuario (usuarioLogin,senha) ";
+            strQuery += " INSERT INTO usuario (UsuarioNome,senha) ";
             strQuery += string.Format(" VALUES ('{0}','{1}') ",
                 usuario.UsuarioNome, usuario.Senha);
             contexto.ExecutaComando(strQuery);
@@ -26,7 +26,7 @@ namespace ProvaAlexandre.Aplicacao
         {
             var strQuery = " ";
             strQuery += " UPDATE usuario SET ";
-            strQuery += string.Format(" usuarioLogin = '{0}', ", usuario.UsuarioNome);
+            strQuery += string.Format(" UsuarioNome = '{0}', ", usuario.UsuarioNome);
             strQuery += string.Format(" Senha = '{0}' ", usuario.Senha);
             strQuery += string.Format(" WHERE UsuarioId = {0}", usuario.UsuarioId);
             contexto.ExecutaComando(strQuery);
@@ -42,7 +42,7 @@ namespace ProvaAlexandre.Aplicacao
 
         public void Excluir(int id)
         {
-            var strQuery = string.Format(" DELETE FROM usuario WHERE Usuario_Id = {0} ", id);
+            var strQuery = string.Format(" DELETE FROM usuario WHERE UsuarioId = {0} ", id);
             contexto.ExecutaComando(strQuery);
         }
 
@@ -55,7 +55,7 @@ namespace ProvaAlexandre.Aplicacao
 
         public Usuario ListarPorId(int id)
         {
-            var strQuery = " SELECT * FROM usuario WHERE Usuario_Id = " + id;
+            var strQuery = " SELECT * FROM usuario WHERE UsuarioId = " + id;
             var retorno = contexto.ExecutaComandoComRetorno(strQuery);
             return TransformaReaderEmListaDeObjeto(retorno).FirstOrDefault();
         }
@@ -67,8 +67,8 @@ namespace ProvaAlexandre.Aplicacao
             {
                 var tempObjeto = new Usuario
                 {
-                    UsuarioId = int.Parse(reader["Usuario_Id"].ToString()),
-                    UsuarioNome = reader["usuarioLogin"].ToString(),
+                    UsuarioId = int.Parse(reader["UsuarioId"].ToString()),
+                    UsuarioNome = reader["usuarioNome"].ToString(),
                     Senha = reader["Senha"].ToString()
                 };
                 usuarios.Add(tempObjeto);

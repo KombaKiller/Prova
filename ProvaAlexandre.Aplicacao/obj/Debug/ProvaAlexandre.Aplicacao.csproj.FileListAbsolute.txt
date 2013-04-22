@@ -16,3 +16,12 @@ C:\repositorio\Prova\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Repositor
 C:\repositorio\Prova\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.csprojResolveAssemblyReference.cache
 C:\repositorio\Prova\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.dll
 C:\repositorio\Prova\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Aplicacao.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Aplicacao.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Dominio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Repositorio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Dominio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\bin\Debug\ProvaAlexandre.Repositorio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.csprojResolveAssemblyReference.cache
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Aplicacao\obj\Debug\ProvaAlexandre.Aplicacao.pdb

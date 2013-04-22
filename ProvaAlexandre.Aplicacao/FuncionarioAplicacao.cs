@@ -16,9 +16,9 @@ namespace ProvaAlexandre.Aplicacao
         private void Inserir(Funcionario funcionario)
         {
             var strQuery = " ";
-            strQuery += " INSERT INTO FUNCIONARIO (Nome, Idade) ";
-            strQuery += string.Format(" VALUES ('{0}','{1}') ",
-                funcionario.Nome, funcionario.Idade);
+            strQuery += " INSERT INTO FUNCIONARIO (Nome, Idade,funcao ) ";
+            strQuery += string.Format(" VALUES ('{0}','{1}','{2}') ",
+                funcionario.Nome, funcionario.Idade,funcionario.Funcao);
             contexto.ExecutaComando(strQuery);
         }
 
@@ -27,7 +27,8 @@ namespace ProvaAlexandre.Aplicacao
             var strQuery = " ";
             strQuery += " UPDATE FUNCIONARIO SET ";
             strQuery += string.Format(" Nome = '{0}', ", funcionario.Nome);
-            strQuery += string.Format(" Idade = '{0}' ", funcionario.Idade);
+            strQuery += string.Format(" Idade = '{0}', ", funcionario.Idade);
+            strQuery += string.Format(" Funcao = '{0}' ", funcionario.Funcao);
             strQuery += string.Format(" WHERE Funcionario_Id = {0}", funcionario.FuncionarioId);
             contexto.ExecutaComando(strQuery);
         }
@@ -70,7 +71,7 @@ namespace ProvaAlexandre.Aplicacao
                     FuncionarioId = int.Parse(reader["Funcionario_Id"].ToString()),
                     Nome = reader["Nome"].ToString(),
                     Idade = int.Parse(reader["Idade"].ToString()),
-
+                    Funcao = reader["Funcao"].ToString(),
                 };
                 funcionario.Add(tempObjeto);
             }

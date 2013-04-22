@@ -1,5 +1,5 @@
-2013/04/10-22:54:54.595 1d10 Recovering log #6
-2013/04/10-22:54:54.597 1d10 Level-0 table #8: started
-2013/04/10-22:54:54.876 1d10 Level-0 table #8: 48573 bytes OK
-2013/04/10-22:54:55.021 1d10 Delete type=0 #6
-2013/04/10-22:54:55.022 1d10 Delete type=3 #4
+2013/04/22-14:22:18.883 84c Recovering log #37
+2013/04/22-14:22:18.884 84c Level-0 table #39: started
+2013/04/22-14:22:18.947 84c Level-0 table #39: 21352 bytes OK
+2013/04/22-14:22:19.099 84c Delete type=0 #37
+2013/04/22-14:22:19.100 84c Delete type=3 #35

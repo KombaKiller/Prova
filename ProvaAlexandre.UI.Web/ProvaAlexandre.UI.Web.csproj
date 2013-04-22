@@ -122,10 +122,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\FilhoController.cs" />
+    <Compile Include="Controllers\EquipamentoController.cs" />
     <Compile Include="Controllers\FuncionarioController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MaeController.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -205,7 +205,9 @@
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -217,28 +219,28 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Filho\Index.cshtml" />
-    <Content Include="Views\Filho\Detalhes.cshtml" />
-    <Content Include="Views\Filho\ListarMae.cshtml" />
-    <Content Include="Views\Filho\Cadastrar.cshtml" />
-    <Content Include="Views\Filho\Editar.cshtml" />
-    <Content Include="Views\Filho\Excluir.cshtml" />
-    <Content Include="Views\Mae\Index.cshtml" />
-    <Content Include="Views\Mae\Detalhes.cshtml" />
-    <Content Include="Views\Mae\Cadastrar.cshtml" />
-    <Content Include="Views\Mae\Editar.cshtml" />
-    <Content Include="Views\Mae\Excluir.cshtml" />
-    <Content Include="Views\Funcionario\Index.cshtml" />
-    <Content Include="Views\Funcionario\Detalhes.cshtml" />
-    <Content Include="Views\Funcionario\Cadastrar.cshtml" />
-    <Content Include="Views\Funcionario\Editar.cshtml" />
-    <Content Include="Views\Funcionario\Excluir.cshtml" />
     <Content Include="Views\Usuario\Index.cshtml" />
     <Content Include="Views\Usuario\Detalhes.cshtml" />
     <Content Include="Views\Usuario\Cadastrar.cshtml" />
     <Content Include="Views\Usuario\Editar.cshtml" />
     <Content Include="Views\Usuario\Excluir.cshtml" />
     <Content Include="Views\Home\Inicio.cshtml" />
+    <Content Include="Views\Equipamento\Index.cshtml" />
+    <Content Include="Views\Equipamento\Detalhes.cshtml" />
+    <Content Include="Views\Equipamento\ListarCliente.cshtml" />
+    <Content Include="Views\Equipamento\Cadastrar.cshtml" />
+    <Content Include="Views\Equipamento\Excluir.cshtml" />
+    <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Cliente\Detalhes.cshtml" />
+    <Content Include="Views\Cliente\Cadastrar.cshtml" />
+    <Content Include="Views\Cliente\Excluir.cshtml" />
+    <Content Include="Views\Cliente\Editar.cshtml" />
+    <Content Include="Views\Funcionario\Index.cshtml" />
+    <Content Include="Views\Funcionario\Detalhes.cshtml" />
+    <Content Include="Views\Funcionario\Cadastrar.cshtml" />
+    <Content Include="Views\Funcionario\Editar.cshtml" />
+    <Content Include="Views\Funcionario\Excluir.cshtml" />
+    <Content Include="Views\Equipamento\Editar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -249,11 +251,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProvaAlexandre.Aplicacao\ProvaAlexandre.Aplicacao.csproj">
-      <Project>{E51AAE05-CA8A-41C5-B8AA-447308AA1341}</Project>
+      <Project>{e51aae05-ca8a-41c5-b8aa-447308aa1341}</Project>
       <Name>ProvaAlexandre.Aplicacao</Name>
     </ProjectReference>
     <ProjectReference Include="..\ProvaAlexandre.Dominio\ProvaAlexandre.Dominio.csproj">
-      <Project>{9D7BE273-11E9-4818-93A0-9E76E30ACFAB}</Project>
+      <Project>{9d7be273-11e9-4818-93a0-9e76e30acfab}</Project>
       <Name>ProvaAlexandre.Dominio</Name>
     </ProjectReference>
   </ItemGroup>

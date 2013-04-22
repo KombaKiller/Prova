@@ -15,7 +15,7 @@ namespace ProvaAlexandre.UI.Web.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpPost]  
         public ActionResult Index(string login, string senha)
         {
             var acessoAplicacao = new AcessoAplicacao();

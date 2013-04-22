@@ -1,0 +1,50 @@
+﻿@model ProvaAlexandre.Dominio.Equipamento
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Equipamento</legend>
+
+    <div class="display-label">
+       Cliente Responsável
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cliente_id)
+    </div>
+
+    <div class="display-label">
+        Funcionário Responsável
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Funcionario_id)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Marca)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Marca)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Modelo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Modelo)
+    </div>
+
+    <div class="display-label">
+         Número de Série
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NSerie)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Editar", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

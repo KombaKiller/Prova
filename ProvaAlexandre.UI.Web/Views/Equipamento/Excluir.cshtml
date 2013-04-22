@@ -1,0 +1,53 @@
+﻿@model ProvaAlexandre.Dominio.Equipamento
+
+@{
+    ViewBag.Title = "Excluir";
+}
+
+<h2>Excluir</h2>
+
+<h3>Tem Certeza de que quer deletar esses dados?</h3>
+<fieldset>
+    <legend>Equipamento</legend>
+
+    <div class="display-label">
+         Cliente Responsável
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cliente_id)
+    </div>
+
+    <div class="display-label">
+         Funcionário Responsável
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Funcionario_id)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Marca)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Marca)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Modelo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Modelo)
+    </div>
+
+    <div class="display-label">
+         Numero de Série
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NSerie)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Sim" /> |
+        @Html.ActionLink("Não", "Index")
+    </p>
+}

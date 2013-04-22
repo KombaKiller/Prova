@@ -15,7 +15,7 @@ namespace ProvaAlexandre.Aplicacao
 
         public Usuario Logar(string login, string senha)
         {
-            var strQuery = string.Format(" SELECT * FROM usuario WHERE Usuariologin='{0}' and senha='{1}' ", login, senha);
+            var strQuery = string.Format(" SELECT * FROM usuario WHERE UsuarioNome='{0}' and senha='{1}' ", login, senha);
             var retorno = contexto.ExecutaComandoComRetorno(strQuery);
             return TransformaReaderEmListaDeObjeto(retorno).FirstOrDefault();
 
@@ -28,8 +28,8 @@ namespace ProvaAlexandre.Aplicacao
             {
                 var tempObjeto = new Usuario
                 {
-                    UsuarioId = int.Parse(reader["Usuario_Id"].ToString()),
-                    UsuarioNome = reader["UsuarioLogin"].ToString(),
+                    UsuarioId = int.Parse(reader["UsuarioId"].ToString()),
+                    UsuarioNome = reader["UsuarioNome"].ToString(),
                     Senha = reader["Senha"].ToString()
                 };
                 usuarios.Add(tempObjeto);

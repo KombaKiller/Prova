@@ -8,3 +8,8 @@ C:\repositorio\Prova\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Reposit
 C:\repositorio\Prova\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.csprojResolveAssemblyReference.cache
 C:\repositorio\Prova\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.dll
 C:\repositorio\Prova\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Repositorio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Repositorio\bin\Debug\ProvaAlexandre.Repositorio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.csprojResolveAssemblyReference.cache
+C:\repositorio\Prova - Copia\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Repositorio\obj\Debug\ProvaAlexandre.Repositorio.pdb

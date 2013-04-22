@@ -32,13 +32,6 @@ namespace ProvaAlexandre.UI.Web.Controllers
 
         public ActionResult Cadastrar()
         {
-            var aplicacao = new FilhoAplicacao();
-            ViewBag.listaDeFilhoes = new SelectList(
-                aplicacao.ListarTodos(),
-                "FilhoId",
-                "Nome"
-                );
-
             return View();
         }
 

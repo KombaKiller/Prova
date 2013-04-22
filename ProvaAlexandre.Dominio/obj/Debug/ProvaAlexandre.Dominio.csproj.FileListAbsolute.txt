@@ -8,3 +8,8 @@ C:\repositorio\Prova\ProvaAlexandre.Dominio\obj\Debug\ProvaAlexandre.Dominio.dll
 C:\repositorio\Prova\ProvaAlexandre.Dominio\obj\Debug\ProvaAlexandre.Dominio.pdb
 C:\repositorio\Prova\ProvaAlexandre.Dominio\bin\Debug\ProvaAlexandre.Dominio.dll
 C:\repositorio\Prova\ProvaAlexandre.Dominio\bin\Debug\ProvaAlexandre.Dominio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Dominio\bin\Debug\ProvaAlexandre.Dominio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Dominio\bin\Debug\ProvaAlexandre.Dominio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.Dominio\obj\Debug\ProvaAlexandre.Dominio.csprojResolveAssemblyReference.cache
+C:\repositorio\Prova - Copia\ProvaAlexandre.Dominio\obj\Debug\ProvaAlexandre.Dominio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.Dominio\obj\Debug\ProvaAlexandre.Dominio.pdb

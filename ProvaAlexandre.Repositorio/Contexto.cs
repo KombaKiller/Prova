@@ -15,7 +15,7 @@ namespace ProvaAlexandre.Repositorio
 
         public Contexto()
         {
-            minhaConexao = new SqlConnection(ConfigurationManager.ConnectionStrings["Prova"].ConnectionString);
+            minhaConexao = new SqlConnection(ConfigurationManager.ConnectionStrings["Arvore"].ConnectionString);
             minhaConexao.Open();
         }
 

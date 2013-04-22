@@ -70,3 +70,39 @@ C:\repositorio\Prova\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Repositorio.pdb
 C:\repositorio\Prova\ProvaAlexandre.UI.Web\obj\Debug\ProvaAlexandre.UI.Web.csprojResolveAssemblyReference.cache
 C:\repositorio\Prova\ProvaAlexandre.UI.Web\obj\Debug\ProvaAlexandre.UI.Web.dll
 C:\repositorio\Prova\ProvaAlexandre.UI.Web\obj\Debug\ProvaAlexandre.UI.Web.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.UI.Web.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.UI.Web.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\Antlr3.Runtime.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\EntityFramework.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\Newtonsoft.Json.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Aplicacao.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Dominio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Net.Http.Formatting.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Http.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Http.WebHost.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Mvc.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Optimization.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Providers.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Razor.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.WebPages.Deployment.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.WebPages.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.WebPages.Razor.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\WebGrease.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Repositorio.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Aplicacao.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Dominio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\EntityFramework.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\Newtonsoft.Json.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Net.Http.Formatting.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Http.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Http.WebHost.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Mvc.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.Razor.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.WebPages.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.WebPages.Deployment.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\System.Web.WebPages.Razor.xml
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\bin\ProvaAlexandre.Repositorio.pdb
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\obj\Debug\ProvaAlexandre.UI.Web.csprojResolveAssemblyReference.cache
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\obj\Debug\ProvaAlexandre.UI.Web.dll
+C:\repositorio\Prova - Copia\ProvaAlexandre.UI.Web\obj\Debug\ProvaAlexandre.UI.Web.pdb

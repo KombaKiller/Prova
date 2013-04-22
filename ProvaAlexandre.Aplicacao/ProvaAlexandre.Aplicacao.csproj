@@ -40,9 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcessoAplicacao.cs" />
-    <Compile Include="FilhoAplicacao.cs" />
+    <Compile Include="EquipamentoAplicacao.cs" />
     <Compile Include="FuncionarioAplicacao.cs" />
-    <Compile Include="MaeAplicacao.cs" />
+    <Compile Include="ClienteAplicacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioAplicacao.cs" />
   </ItemGroup>

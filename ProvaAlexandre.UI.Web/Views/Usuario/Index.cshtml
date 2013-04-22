@@ -7,7 +7,7 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Criar Novo Usuario", "Cadastrar")
+    @Html.ActionLink("Cadastrar Usuário", "Cadastrar")
 </p>
 <table>
     <tr>
@@ -29,9 +29,9 @@
             @Html.DisplayFor(modelItem => item.Senha)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Editar", new { id=item.UsuarioId }) |
-            @Html.ActionLink("Details", "Detalhes", new { id=item.UsuarioId }) |
-            @Html.ActionLink("Delete", "Excluir", new { id=item.UsuarioId })
+            @Html.ActionLink("Editar", "Editar", new { id=item.UsuarioId }) |
+            @Html.ActionLink("Detalhes", "Detalhes", new { id=item.UsuarioId }) |
+            @Html.ActionLink("Excluir", "Excluir", new { id=item.UsuarioId })
         </td>
     </tr>
 }
