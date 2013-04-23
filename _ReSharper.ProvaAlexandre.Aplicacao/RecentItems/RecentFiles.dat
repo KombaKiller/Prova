@@ -1,8 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="E51AAE05-CA8A-41C5-B8AA-447308AA1341/f:FuncionarioAplicacao.cs" caret="723" fromTop="21" />
-    <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Cliente/f:Editar.cshtml" caret="1597" fromTop="35" />
-    <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Cliente/f:Detalhes.cshtml" caret="1183" fromTop="32" />
     <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Cliente/f:Excluir.cshtml" caret="43" fromTop="2" />
     <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Equipamento/f:ListarCliente.cshtml" caret="0" fromTop="0" />
     <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Home/f:Index.cshtml" caret="2009" fromTop="30" />
@@ -29,6 +26,10 @@
     <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Equipamento/f:Index.cshtml" caret="248" fromTop="14" />
     <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Views/d:Cliente/f:Index.cshtml" caret="224" fromTop="14" />
     <File id="DDADCB50-4E2B-4C7C-ACD9-0A0FEE45740D/d:Content/f:Site.css" caret="2105" fromTop="31" />
+    <File id="9D7BE273-11E9-4818-93A0-9E76E30ACFAB/f:Cliente.cs" caret="0" fromTop="0" />
+    <File id="9D7BE273-11E9-4818-93A0-9E76E30ACFAB/f:Equipamento.cs" caret="0" fromTop="0" />
+    <File id="9D7BE273-11E9-4818-93A0-9E76E30ACFAB/f:Funcionario.cs" caret="0" fromTop="0" />
+    <File id="9D7BE273-11E9-4818-93A0-9E76E30ACFAB/f:Usuario.cs" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
     <File id="9D7BE273-11E9-4818-93A0-9E76E30ACFAB/f:Cliente.cs" caret="252" fromTop="11" />
